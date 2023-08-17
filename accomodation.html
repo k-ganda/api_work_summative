@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    <title>Accomodation Bookings</title>
+</head>
+
+<body>
+    <header>
+        <!--navbar-->
+        <nav class="menu">
+            <label class="logo">ZanziBliss</label>
+            <ul>
+                <li> <a class="home" href="web.html">HOME</a></li>
+                <li><a class="entertainment" href="entertainment.html">ENTERTAINMENT</a>
+                </li>
+                <li><a class="active" href="travel.html">
+                        TRAVEL</a>
+                </li>
+                <li><a class="about" href="about.html">ABOUT US</a></li>
+                <li><a class="contact" href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!--showcase-->
+        <div id="showcase">
+            <div class="container">
+
+                <div class="showcase-container">
+                    <h2>Accomodation Bookings</h2>
+                    <p class="lead">
+                        " We have carefully curated a selection of luxurious resorts, boutique hotels, and charming
+                        guesthouses."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="division">
+        <div class="videos">
+            <img src="imgs/accomodation.jpeg" alt="" style="width:250px;height:200px;">
+            <img src="imgs/hotel1.jpg" alt=" " style="width:250px;height:200px;">
+            <img src="imgs/hotel2.jpg" alt="" style="width:250px;height:200px;">
+            <img src="imgs/hotel3.jpg" alt="" style="width:250px;height:200px;">
+        </div>
+        <div class="division">
+            <div class="videos">
+                <img src="imgs/accomodation.jpeg" alt="" style="width:250px;height:200px;">
+                <img src="imgs/hotel1.jpg" alt=" " style="width:250px;height:200px;">
+                <img src="imgs/hotel2.jpg" alt="" style="width:250px;height:200px;">
+                <img src="imgs/hotel3.jpg" alt="" style="width:250px;height:200px;">
+            </div>
+            <div clas="division">
+                <video width="100%" height="500px" controls="controls">
+                    <source src="imgs/pexels-taryn-elliott-3015493-1920x1080-24fps.mp4">
+                </video>
+            </div>
+        </div>
+        <div id="user-input" class="division">
+            <h3>Enter Hotel Details</h3>
+            <form id="input-form">
+                <label for="domain">Domain:</label>
+                <input type="text" id="domain" name="domain" required><br><br>
+        
+                <label for="locale">Locale:</label>
+                <input type="text" id="locale" name="locale" required><br><br>
+        
+                <label for="hotel-id">Hotel ID:</label>
+                <input type="text" id="hotel-id" name="hotel_id" required><br><br>
+        
+                <button type="submit">Get Hotel Summary</button>
+            </form>
+        </div>
+        <div id="hotel-summary" class="division"></div>
+
+        <div>
+            <footer id="main-footer">
+                <div class="container">
+                    <p>
+                        Karibu Zanzibar designed by Group6 sept2022 </a> &copy 2023
+                    </p>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    
+</body>
+
+</html>

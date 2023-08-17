@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+    
+}
+/* w3schools.com */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+#Aims hr {
+    width: 10%;
+    text-align: center;
+    margin-left: 570px;
+    color: black;
+}
+
+#Aims h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+#Aims p {
+    display: flex;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 400px;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.item h3 {
+    font-weight: italic;
+}
+
+#Button {
+    padding: 10px;
+    background-color: rgb(12, 12, 75);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.testimonials {
+    max-width: 1440px;
+    min-height: 1100px;
+    border-top: 500px;
+}
+
+.testimonials h1 {
+    margin-left: 500px;
+    margin-top: 500px;
+}
+.testimonial .avatar {
+    width: 150px;
+    height: 140px;
+    margin-top: 120px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover; 
+}
+
+.testimonial .avatar2 {
+    width: 140px;
+    height: 140px;
+    margin-top: 100px;
+    border-radius: 49%;
+    object-position: center;
+    object-fit: cover; 
+}
+
+.testimonial {
+    display: flex;
+}
+
+.quote-container {
+    margin-top: 150px;
+    padding-left: 40px;
+
+}
+
+.quote {
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.person_name {
+    font-weight: bolder;
+    margin-top: 0px;
+    font-size: medium;
+}
