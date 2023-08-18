@@ -21,9 +21,9 @@ To get started with the Hotel Summary application, follow these steps:
 1. Fill out the form with the required details:
    - Domain: Enter the domain of the hotel. e.g AE,AR,AS,AT,AU,BE,BR,CA,CH,CL,CN,CO,DE,DK,ES,FI,FR,GB,GR,HK,HU,ID,IE,IN,IS,IT,JP,KR,MX,MY,NL,NO,NZ,PE,PH,PT,SE,SG,TH,TR,TW,US,VN,XE,ZA
    - Locale: Enter the locale for the hotel. e.g en_GB,en_US,ar_AE,cs_CZ,da_DK,de_AT,de_BE,de_CH,de_DE,el_GR,en_AS,en_AU,en_CA,en_CN,en_HK,en_ID,en_IE,en_IL,en_IN,en_JP,en_KR,en_LA,en_MX,en_MY,en_NZ,en_PH,en_SG,en_TH,en_TW,en_VN,en_ZA,es_AR,es_BO
-   - Hotel ID: Enter the I.D. of the hotel you want to fetch the summary for. e.g 1105156 a minimum of 1
+   - Hotel ID: Enter the I.D. of the hotel you want to fetch the summary for. e.g 1105156, the ID should be 1105 then three digit numbers from 1
 2. Click the "Get Hotel Summary" button.
-3. The hotel summary will be displayed in a user-friendly format below the form.
+3. The hotel summary below the form will be displayed in a user-friendly format.
 
 ## Dependencies
 
